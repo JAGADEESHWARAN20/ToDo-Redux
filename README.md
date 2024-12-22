@@ -1,5 +1,6 @@
 
-# Project Name
+## Project Name
+# TodoApp with Redux 
 
 ## Description
 A full-stack web application with a Node.js backend and a frontend powered by React.js. This project allows users to send interest messages, accept or reject them, and engage in real-time chat.
@@ -19,8 +20,8 @@ Before running the application, ensure that you have the following tools install
 1. Clone this repository to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/JAGADEESHWARAN20/todoApp
+
 ```
 
 ### Backend Setup
@@ -56,7 +57,7 @@ The backend server will be available at `http://localhost:5000` (or another port
 1. Navigate to the frontend directory:
 
 ```bash
-cd frontend
+cd my-todo-app
 ```
 
 2. Install the frontend dependencies:
@@ -77,20 +78,7 @@ This will start the frontend development server and open the app in your browser
 
 Make sure to set up any necessary environment variables for both the frontend and backend. This could include database credentials, API keys, or port numbers. Refer to the `.env.example` files in both the backend and frontend directories for required variables.
 
-### Directory Structure
 
-```
-/backend
-    /controllers
-    /models
-    /routes
-    server.js
-/frontend
-    /public
-    /src
-    package.json
-    index.html
-```
 
 ## Contributing
 
